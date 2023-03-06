@@ -1,0 +1,51 @@
+body {
+  background-color: #273036;
+}
+nav {
+  z-index: 1;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #868686;
+  position: relative;
+}
+
+#about {
+  background-color: #273036;
+}
+
+#about .container {
+  padding-top: 5rem;
+}
+
+#gallery {
+  background-color: #f3f4f5;
+  padding-top: 3rem;
+}
+
+#home img {
+  transition: 30s;
+  animation-iteration-count: infinite;
+}
+
+#home img:hover {
+  rotate: 360deg;
+  transition: 30s;
+  animation-iteration-count: infinite;
+}
+
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: aquamarine;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+#gallery .container {
+  margin-top: 30px;
+  padding: 50px;
+}
